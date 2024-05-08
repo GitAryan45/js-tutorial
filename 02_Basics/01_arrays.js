@@ -20,6 +20,24 @@ console.log(myArr.indexOf(9)) // return index of the asked value, if not found t
 
 const newArray = myArr.join()
 console.log(newArray) // covert the array into string
-console.log(typeof newArray) ;
+console.log(typeof newArray) ;//string
 
-// slice and splice 
+
+// slice and splice ...............................................
+console.log("A ", myArr); // we are writing this to mark A position coz we want see ids there any changes in array at this position
+// output: A  [ 0, 1, 2, 3, 4, 5 ]
+
+const myn1 = myArr.slice(1, 3) //slice operation on array
+console.log(myn1); //output: [ 1, 2 ]
+
+console.log("B ", myArr);// checking changes in array at position B(or after slice operation).
+// output: B  [ 0, 1, 2, 3, 4, 5 ] ...means no changes to array
+
+const myn2 = myArr.splice(1, 3) //splice opertion on array here range(3) will be included
+console.log(myn2); //output: [ 1, 2, 3 ]
+
+console.log("C ", myArr); // checking changes in array by printing initial array at position C(or after splicce operation)
+//output: C  [ 0, 4, 5 ]...means there is changes to initial array
+// mtlb splice method given range ko kaat ke alag nikal leta h array se isliye initial array me baaki k bache hue elements hi rhte h  
+
+
