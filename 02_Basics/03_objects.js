@@ -16,7 +16,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-
+console.log(JsUser);// output: {name: 'Hitesh', 'full name': 'Hitesh Choudhary', age: 18, location: 'Jaipur', email: 'hitesh@google.com', isLoggedIn: false, lastLoginDays: [ 'Monday', 'Saturday' ], [Symbol(key1)]: 'mykey1'}
 console.log(JsUser.email)  // access a element of object 
 console.log(JsUser["email"]) // another way to acces a element of object 
 // console.log(JsUser["full name"])
