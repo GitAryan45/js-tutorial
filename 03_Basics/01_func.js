@@ -36,8 +36,7 @@ function loginUserMessage(username='Guestuser'){ //yaha se bhi argument pass kr 
 
 console.log(loginUserMessage('Aryan'))
 
-//******************************************************************************************************* 
-
+//**********************************************************************
 // shopping cart me functions kaise kaam krte h ?? kuki hme pata nhi hota h ki user kitne item add krega cart me to hmm kitne parameter ya argument define kre kaise pata chalega..
 // isiliye yaha use hota h rest operator ka (...variable_name)
 function calculateCartPrice(...num1){
